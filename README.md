@@ -1,4 +1,3 @@
-# nose-cone-visualizer
 # MATLAB-based Visualizer for Rocket Nose Cone Geometry
 
 A MATLAB-based tool for visualizing and exploring parametric rocket nose cone geometries.
