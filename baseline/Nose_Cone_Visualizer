@@ -1,1 +1,61 @@
+clc; clear; close all;
 
+% --------------------------------------------User inputs-------------------------------------------------
+%---------------------------------------------------------------------------------------------------------
+
+d = 5.5   % [in] base diameter of nose cone
+s = 10    % [N/A] slenderness of the nose cone | large values correspond to extremely slender nose cones
+ncs_choice= 1   % [N/A] nose cone shape | enter the corresponding number of the desired nose cone shape
+% Available nose cone shapes
+%  1 : Conical
+%  2 : Parabolic
+%  3 : Ogive
+
+%---------------------------------------------------------------------------------------------------------
+%---------------------------------------------------------------------------------------------------------
+
+
+% Calculate nose cone height in inches ------------------------------------
+h=s*d/2;                   % [in] height of nose cone in inches
+
+% Convert height & diameter of nose cone to meters ------------------------
+h = h * 0.0254;         % [m] height of nose cone
+d = d * 0.0254;         % [m] diameter of nose cone
+
+% Setup 3D grid -----------------------------------------------------------
+% resolution of nose cone
+xy_pt= 150;        % number of points around the base of the nose cone (on x,y place)
+z_pt= 150;         % number of points along the z-axis
+
+% create vectors for base (x,y plane) and height (z-axis)
+theta=linspace(0,2*pi,xy_pt);       % assigns a point to each angle based on xy_pt
+z=linspace(0,h,z_pt);               % assigns a point to each height based on z_pt
+
+% create meshgrid
+[Z TH]=meshgrid(z,theta);   % generates a 2D grid to plot on
+
+% Compute radius profile of nose cone -------------------------------------
+% compute the change in radius as height changes for each nose cone shape
+R=d/2;      % [m] R - base radius of nose cone
+switch ncs_choice
+    case 1  % Conical
+        rProf = R * (1 - Z/h);  % radius profile for linear decrease in radius
+    case 2  % Parabolic
+        rProf = R * (1 - (Z/h).^2);  % radius profile for parabolic decrease in radius
+    case 3  % Ogive
+        rProf = R * sqrt(1-(Z/h).^2);  % radius profile for an ogive profile
+end
+
+% Convert polar coordinates to Cartesian coordinates for plotting ---------
+X = rProf .* cos(TH);       
+Y = rProf .* sin(TH);
+
+% Plot surface ------------------------------------------------------------
+figure;
+surf(X,Y,Z)
+axis equal
+axis vis3d
+rotate3d on
+xlabel('x [m]')
+ylabel('y [m]')
+zlabel('z / height [m]')
