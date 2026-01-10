@@ -1,4 +1,7 @@
 clc; clear; close all;
+% Nose Cone Visualizer
+% Author: Jeremy Tan Zi Xiang
+% Created: 3 Dec 2025
 
 % User inputs-------------------------------------------------------------------------------------------------------------
 d=input("Enter the base diameter of the nose cone (in): ");   % [in] base diameter of nose cone
@@ -74,4 +77,5 @@ zlabel('z / height [m]')
 
 
     
+
 
