@@ -15,7 +15,8 @@ This version prompts the user for nose cone parameters at runtime, enabling an i
 - Ogive
 
 ## Example Output
-![Example plot](examples/[example_image].png)
+<img width="697" height="919" alt="image" src="https://github.com/user-attachments/assets/9533b9ef-53ff-4e31-b2e2-e4e4cf1eb2bb" />
+
 
 ## Notes
 Slenderness ratios are restricted to 1-20. This is to ensure meaningful and realistic nose cone geometries.
