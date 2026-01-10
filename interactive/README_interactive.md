@@ -15,7 +15,7 @@ This version prompts the user for nose cone parameters at runtime, enabling an i
 - Ogive
 
 ## Example Output
-<img width="697" height="919" alt="image" src="https://github.com/user-attachments/assets/9533b9ef-53ff-4e31-b2e2-e4e4cf1eb2bb" />
+<img width="349" height="460" alt="image" src="https://github.com/user-attachments/assets/9533b9ef-53ff-4e31-b2e2-e4e4cf1eb2bb" />
 
 
 ## Notes
