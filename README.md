@@ -7,10 +7,10 @@ This project includes multiple scripts in separate folders to support different 
 This project provides a simple framework for defining geometric parameters and visualizing the resulting aerodynamic shapes in 2D. It is intended for exploratory, educational, and early-stage design use. Each version provides a different way to define or analyze nose cone geometries.
 
 ## Scripts / Versions
-- **baseline**
+- **baseline:**
 Baseline version with geometric parameters defined directly in the code for reproducible runs.
 
-- **interactive**
+- **interactive:**
 An interactive version that prompts the user for input parameters at runtime.
 
 ## Features
