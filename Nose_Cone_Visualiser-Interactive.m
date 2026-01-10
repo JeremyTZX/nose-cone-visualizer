@@ -1,6 +1,6 @@
 clc; clear; close all;
 
-% User inputs--------------------------------------------------------------
+% User inputs-------------------------------------------------------------------------------------------------------------
 d=input("Enter the base diameter of the nose cone (in): ");   % [in] base diameter of nose cone
 disp("Nose cone slenderness ranges from 1-20 (1 is the least slender, 20 is extremely slender)")
 s=input("Enter the slenderness ratio of the nose cone (1-20): ");    % [N/A] slenderness of the nose cone
@@ -17,15 +17,15 @@ disp("Choose a  nose cone shape: ")
 disp("  1. Conical")
 disp("  2. Parabolic")
 disp("  3. Ogive")
-nct_choice=input("Select the nose cone shape by entering the number preceeding it (1, 2 or 3): ");   % nose cone shape
+ncs_choice=input("Select the nose cone shape by entering the number preceeding it (1, 2 or 3): ");   % nose cone shape
     % data validation for nose cone type
-nct_datype_val=isa(nct_choice,"double");     
-while nct_choice ~= 1 && nct_choice ~= 2 && nct_choice ~=3 && nct_datype_val~=true;
+ncs_datype_val=isa(ncs_choice,"double");     
+while ncs_choice ~= 1 && ncs_choice ~= 2 && ncs_choice ~=3 && ncs_datype_val~=true;
     disp("invalid input")
-    nct_choice=input("Enter 1, 2, or 3: ");
-    nct_datype_val=isa(nct_choice,"double");
+    ncs_choice=input("Enter 1, 2, or 3: ");
+    ncs_datype_val=isa(ncs_choice,"double");
 end
-    %----------------------------------------------------------------------
+%--------------------------------------------------------------------------------------------------------------------------
 
 % Calculate nose cone height in inches ------------------------------------
 h=s*d/2;                   % [in] height of nose cone in inches
@@ -49,7 +49,7 @@ z=linspace(0,h,z_pt);               % assigns a point to each height based on z_
 % Compute radius profile of nose cone -------------------------------------
 % compute the change in radius as height changes for each nose cone shape
 R=d/2;      % [m] R - base radius of nose cone
-switch nct_choice
+switch ncs_choice
     case 1  % Conical
         rProf = R * (1 - Z/h);  % radius profile for linear decrease in radius
     case 2  % Parabolic
@@ -74,3 +74,4 @@ zlabel('z / height [m]')
 
 
     
+
