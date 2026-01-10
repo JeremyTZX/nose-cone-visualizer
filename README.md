@@ -1,15 +1,15 @@
 # MATLAB-based Visualizer for Rocket Nose Cone Geometry
 
 A MATLAB-based tool for visualizing and exploring parametric rocket nose cone geometries.
+This project includes multiple scripts in separate folders to support different modes of usage
 
 ## Overview
-This project provides a simple framework for defining geometric parameters and visualizing the resulting aerodynamic shapes in 2D. It is intended for exploratory, educational, and early-stage design use.
+This project provides a simple framework for defining geometric parameters and visualizing the resulting aerodynamic shapes in 2D. It is intended for exploratory, educational, and early-stage design use. Each version provides a different way to define or analyze nose cone geometries.
 
 ## Features
 - Parametric definition of nose cone geometries
 - 3D visualization of nose cones
-- Easily adjustable parameters for rapid exploration
-- Modular structure to support additional geometry types
+- Easily adjustable parameters for rapid exploration (either via code or interactive input)
 
 ## Supported Nose Cone Geometries
 - Conical
@@ -20,13 +20,8 @@ This project provides a simple framework for defining geometric parameters and v
 This project was built to better understand how geometric parameters influence aerodynamic shapes, and to bridge theoretical concepts with visual intuition using MATLAB.
 
 ## How to Run
-1. Open the `.m` file in MATLAB
-2. Run the script
-3. Enter desired values for nose cone geometry
-
-## Example Output
-<img width="355" height="459" alt="image" src="https://github.com/user-attachments/assets/480a2746-1905-4976-baf3-558c3913989e" />
-
+Each version of the visualizer is located in its own folder.
+Open the folder corresponding to the version you want to run and follow the instructions in that folder’s README.
 
 ## Future Work
 - Compare Mode: Develop a version that allows side-by-side comparison of multiple nose cone shapes to better visualize differences in geometry.
