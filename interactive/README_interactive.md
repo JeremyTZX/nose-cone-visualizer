@@ -19,4 +19,4 @@ This version prompts the user for nose cone parameters at runtime, enabling an i
 
 
 ## Notes
-Slenderness ratios are restricted to 1-20. This is to ensure meaningful and realistic nose cone geometries.
+Slenderness ratio is restricted to 1-20. This is to ensure that meaningful and realistic nose cone geometries are achieved.
