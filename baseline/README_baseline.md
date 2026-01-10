@@ -1,7 +1,7 @@
 # Baseline Nose Cone Visualizer
 
 ## Purpose
-The baseline version provides a simple reference implementation with geometric parameters defined directly in the code. It serves as the original code from which other versions are derived
+The baseline version provides a simple reference implementation with geometric parameters defined directly in the code. It serves as the original code from which other versions are derived.
 
 ## How to Run
 1. Open `Nose_Cone_Visualizer.m` in MATLAB.
