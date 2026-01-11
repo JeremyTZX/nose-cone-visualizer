@@ -1,6 +1,6 @@
 clc; clear; close all;
 % Nose Cone Visualizer
-% Author: Jeremy Tan Zi Xiang
+% Author: Jeremy Tan Zi Xiang    
 % Created: 3 Dec 2025
 
 % --------------------------------------------User inputs-------------------------------------------------
