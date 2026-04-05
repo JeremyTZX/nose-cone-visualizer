@@ -4,7 +4,7 @@ A MATLAB-based tool for visualizing and exploring parametric rocket nose cone ge
 This project includes multiple scripts in separate folders to support different modes of usage
 
 ## Overview
-This project provides a simple framework for defining geometric parameters and visualizing the resulting aerodynamic shapes in 2D. It is intended for exploratory, educational, and early-stage design use. Each version provides a different way to define or analyze nose cone geometries.
+This project provides a simple framework for defining geometric parameters and visualizing the resulting aerodynamic shapes in 3D. It is intended for exploratory, educational, and early-stage design use. Each version provides a different way to define or analyze nose cone geometries.
 
 ## Scripts / Versions
 - **baseline:**
