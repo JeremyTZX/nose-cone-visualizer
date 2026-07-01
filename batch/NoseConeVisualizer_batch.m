@@ -6,7 +6,7 @@ clc; clear; close all;
 % --------------------------------------------User inputs-------------------------------------------------
 %---------------------------------------------------------------------------------------------------------
 
-raw_data=readtable("nosecone_inputs_compare.xlsx",'Range','A:D');
+raw_data=readtable("nosecone_inputs_batch.xlsx",'Range','A:D');
 isdata= ~isnan(raw_data.D_base);
 data=raw_data(isdata,:);
 disp(data)
