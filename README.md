@@ -31,8 +31,7 @@ Each version of the visualizer is located in its own folder.
 Open the folder corresponding to the version you want to run and follow the instructions in that folder’s README.
 
 ## Future Work
-- Compare Mode: Develop a version that allows side-by-side comparison of multiple nose cone shapes to better visualize differences in geometry.
-- Batch Run & Data Logging: Implement a version that runs multiple parameter sets automatically and saves the results for further analysis.
+- STL Exporting: Converts nose cone configurations directly into .stl files for 3D printing or CAD integration.
 
 ## License
 This project is licensed under the MIT License.
