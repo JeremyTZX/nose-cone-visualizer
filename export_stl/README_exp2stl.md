@@ -24,3 +24,15 @@ This version allows the user to generate nose cone geometries and export them di
 - Conical
 - Parabolic
 - Ogive
+
+## Example Output
+#### Output in the command window: <br>
+<img width="450" height="150" alt="image" src="https://github.com/user-attachments/assets/e1cc7289-ac98-4813-8251-042b42e64c78" /><br>
+#### Output in the figures window: <br>
+_~Tip: MATLAB will generate all geometries within a single window using a tabbed interface. Click through the tabs at the top of the figure window to view each configuration's plot._<br>
+<img width="450" height="370" alt="image" src="https://github.com/user-attachments/assets/137941b6-75f1-4879-af56-d185dadaacb7" /> <br>
+#### Output in the working directory: <br>
+<img width="300" height="311" alt="image" src="https://github.com/user-attachments/assets/a728848b-17ce-44b7-ac8d-fabe4ad4dc0f" /><br>
+
+## Notes
+Slenderness ratio is restricted to 1-20. This is to ensure that meaningful and realistic nose cone geometries are achieved.
