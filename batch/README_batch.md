@@ -24,10 +24,10 @@ This version allows the user to compare multiple nose cone geometries simultaneo
 - Ogive
 
 ## Example Output
-output in the command window:<br>
+#### Output in the command window:<br>
 <img width="500" height="251" alt="image" src="https://github.com/user-attachments/assets/a31c4b95-d28c-4f6e-9307-324754dd9c6e" /><br>
-output in the figure window:<br>
-Tip: MATLAB will generate all geometries within a single window using a tabbed interface. Click through the tabs at the top of the figure window to view each configuration's plot.<br>
+#### Output in the figure window:<br>
+_~Tip: MATLAB will generate all geometries within a single window using a tabbed interface. Click through the tabs at the top of the figure window to view each configuration's plot._<br>
 <img width="450" height="369" alt="image" src="https://github.com/user-attachments/assets/737a6329-6f60-4f35-b1e7-b53ee3ea27d8" />
 
 ## Notes
