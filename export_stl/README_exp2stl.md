@@ -10,3 +10,17 @@ This version allows the user to generate nose cone geometries and export them di
 4. Save and close `nosecone_inputs_exp2stl.xlsx`.
 5. Open `NoseConeVisualizer_exp2stl.m` in MATLAB and run the script.
 6. The `.stl` files will be saved to the MATLAB working directory as defined in the input table.
+
+## Input Table Variable References
+|Variable Name|Units|Description|
+|:---:|:---:|:---|
+|config|N/A|Configuration name|
+|D_Base|m|Base diameter of nose cone|
+|r_S|N/A|Slenderness Ratio of Nose Cone.Used to calculate the height of the nose cone.<br>Large values correspond to extremely slender nose cones.|
+|nc_shape|N/A|Shape of nose cone. Enter the number that corresponds to the desired nose cone shape.<br>1 - Conical<br>2 - Parabolic<br>3 - Ogive|
+|file name|N/A|Name of the downloaded `.stl` file. Remember to include ".stl" at the end of the file name|
+
+## Supported Geometries
+- Conical
+- Parabolic
+- Ogive
