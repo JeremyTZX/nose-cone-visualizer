@@ -23,6 +23,8 @@ An extension of the batch framework that processes multiple geometries from a sp
 - Parametric definition of nose cone geometries
 - 3D visualization of nose cones
 - Easily adjustable parameters for rapid exploration (either via code or interactive input)
+- Run trade studies and side-by-side shape comparisons by loading multiple design profiles simultaneously from an external spreadsheet (Batch-run and STL Export versions only)
+- Automatically generate and save production-ready `.stl` files for immediate use in 3D printing slicing software or CAD modeling environments (STL Export version only)
 
 ## Supported Nose Cone Geometries
 - Conical
