@@ -15,7 +15,7 @@ This version allows the user to compare multiple nose cone geometries simultaneo
 |:---:|:---:|:---|
 |config|N/A|Configuration name|
 |D_Base|m|Base diameter of nose cone|
-|r_S|N/A|Slenderness Ratio of Nose Cone.Used to calculate the height of the nose cone.<br>Large values correspond to extremely slender nose cones.|
+|r_S|N/A|Slenderness Ratio of Nose Cone.Used to calculate the height of the nose cone<br>Large values correspond to extremely slender nose cones|
 |nc_shape|N/A|Shape of nose cone. Enter the number that corresponds to the desired nose cone shape.<br>1 - Conical<br>2 - Parabolic<br>3 - Ogive|
 
 ## Supported Geometries
