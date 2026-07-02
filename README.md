@@ -4,14 +4,20 @@ A MATLAB-based tool for visualizing and exploring parametric rocket nose cone ge
 This project includes multiple scripts in separate folders to support different modes of usage
 
 ## Overview
-This project provides a simple framework for defining geometric parameters and visualizing the resulting aerodynamic shapes in 3D. It is intended for exploratory, educational, and early-stage design use. Each version provides a different way to define or analyze nose cone geometries.
+This project provides a simple framework for defining geometric parameters and visualizing the resulting aerodynamic shapes in 3D. It is intended for exploratory, educational, and early-stage design use. Each version provides a different approach to defining or analyzing nose cone geometries.
 
 ## Scripts / Versions
-- **baseline:**
+- **Baseline:**
 Baseline version with geometric parameters defined directly in the code for reproducible runs.
 
-- **interactive:**
+- **Interactive:**
 An interactive version that prompts the user for input parameters at runtime.
+
+- **Batch-run:**
+A batch processing version that reads from an external spreadsheet to generate multiple nose cone geometries simultaneously for side-by-side comparison.
+
+- **STL Export:**
+An extension of the batch framework that processes multiple geometries from a spreadsheet and automatically exports them into ready-to-use `.stl` files for 3D modeling and printing.
 
 ## Features
 - Parametric definition of nose cone geometries
@@ -29,9 +35,6 @@ This project was developed primarily to support my rocket club and also as a per
 ## How to Run
 Each version of the visualizer is located in its own folder.
 Open the folder corresponding to the version you want to run and follow the instructions in that folder’s README.
-
-## Future Work
-- STL Exporting: Converts nose cone configurations directly into .stl files for 3D printing or CAD integration.
 
 ## License
 This project is licensed under the MIT License.
